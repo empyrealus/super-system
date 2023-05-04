@@ -7,4 +7,4 @@ This is the first iteration of the study: this study focuses on adding valid inp
 
 Why is this important? Publicly accessible value setters may lead to private method execution depending on program design and using raw public inputs may pose a security risk (once again depending on program design) -- depending on who has access and under what circumstances.
 
-Summation: This allows us to execute generic data types on privately pre-defined generic methods without sacrificing type enforcement and perform other necessary checks prior to actually setting and using a publicly defined value within our program.
+Summation: This allows us to execute generic data types on privately pre-defined generic methods without sacrificing type enforcement; while also, allowing us to perform other necessary checks prior to actually setting and using a publicly defined value within our program.
