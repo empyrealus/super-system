@@ -1,5 +1,5 @@
 /*
-  study1 consolidate
+  C# study1 consolidate
 */
 using System;
 using System.Collections.Generic;
