@@ -2,7 +2,7 @@
 The C# Super System is a collection of implementation studies used to develop a deeper understanding of the C# languages functionality and capabilities.
 
 
-# First Iteration - Update
+# Study1.cs - First Iteration
 This is the first iteration of the study: this study focuses on adding valid input logic to the classes child parameter set directive, during assignment; and, allowing the assigned logic functionality to be generically reused for subsequent parameter sets.
 
 Why is this important? Publicly accessible value setters may lead to private method execution depending on program design and using raw public inputs may pose a security risk (once again depending on program design) -- depending on who has access and under what circumstances.
