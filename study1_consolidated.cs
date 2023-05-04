@@ -12,12 +12,10 @@ class Program<TXM> : prototypes
 {
 	public TXM testingFunc<TXD>(TXM? value, TXD? param1){
 	  if(typeof(TXM) != null && param1 != null && typeof(TXD) != null){
-	     Console.WriteLine(value + " test 1");
 	     return value;
 	  }
 	   Program<string> x = new Program<string>();
 	   x.testingFunc<string>(null, null); 
-	   Console.WriteLine(value + " test 2");
 	   return value;
        }
        public TXM test { get => test; set{test =  testingFunc<string>(value, "string");}}
